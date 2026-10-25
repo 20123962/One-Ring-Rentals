@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NM-TAFE/dip-web-app-my-react-app-manual.git"
+    "url": "git+https://https://20123962.github.io/One-Ring-Rentals/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NM-TAFE/dip-web-app-my-react-app-manual/issues"
+    "url": "https://https://20123962.github.io/One-Ring-Rentals/"
   },
   "homepage": "https://nm-tafe.github.io/dip-web-app-my-react-app-manual/",
   "description": "Using Create React App is typically recommended for beginners because it handles much of the setup and configuration automatically. To understand the building block of the React, Next JS ecosystem we will work with stripped down manual installations",
