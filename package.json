@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://20123962.github.io/One-Ring-Rentals/"
+    "url": "git+https://20123962.github.io/One-Ring-Rentals.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://20123962.github.io/One-Ring-Rentals/"
+    "url": "https://20123962.github.io/One-Ring-Rentals/issues"
   },
   "homepage": "https://20123962.github.io/One-Ring-Rentals/",
   "description": "Using Create React App is typically recommended for beginners because it handles much of the setup and configuration automatically. To understand the building block of the React, Next JS ecosystem we will work with stripped down manual installations",
