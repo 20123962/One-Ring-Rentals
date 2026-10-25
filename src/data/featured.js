@@ -1,0 +1,58 @@
+// stores the data for the featured section on the homepage
+const featured = [
+  {
+    id: 1,
+    heading: "Luxury Apartment with great views",
+    location: "Upper East Side, New York",
+    price: "$950",
+    bedroom: "4",
+    bathroom: "3",
+    imageUrl: "http://placehold.co/760x670",
+  },
+  {
+    id: 2,
+    heading: "Stunning Villa with 5 bedrooms",
+    location: "Miami Beach, Florida",
+    price: "$1,300",
+    bedroom: "5",
+    bathroom: "2",
+    imageUrl: "http://placehold.co/760x670",
+  },
+  {
+    id: 3,
+    heading: "Recent construction with 3 bedrooms",
+    location: "Park Slope, New York",
+    price: "$560",
+    bedroom: "3",
+    bathroom: "2",
+    imageUrl: "http://placehold.co/760x670",
+  },
+  {
+    id: 4,
+    heading: "Modern construction with parking space",
+    location: "Midtown, New York",
+    price: "$85",
+    bedroom: "1",
+    bathroom: "2",
+    imageUrl: "http://placehold.co/760x670",
+  },
+  {
+    id: 5,
+    heading: "Single Family Townhouse",
+    location: "Cobble Hill, New York",
+    price: "$840",
+    bedroom: "2",
+    bathroom: "2",
+    imageUrl: "http://placehold.co/760x670",
+  },
+  {
+    id: 6,
+    heading: "3 bedroom villa with garage for rent",
+    location: "Bal Harbour, Florida",
+    price: "$150",
+    bedroom: "3",
+    bathroom: "2",
+    imageUrl: "http://placehold.co/760x670",
+  },
+]
+export default featured;
