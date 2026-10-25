@@ -1,0 +1,43 @@
+{
+  "name": "my-react-app-manual",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NM-TAFE/dip-web-app-my-react-app-manual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NM-TAFE/dip-web-app-my-react-app-manual/issues"
+  },
+  "homepage": "https://nm-tafe.github.io/dip-web-app-my-react-app-manual/",
+  "description": "Using Create React App is typically recommended for beginners because it handles much of the setup and configuration automatically. To understand the building block of the React, Next JS ecosystem we will work with stripped down manual installations",
+  "dependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "babel-loader": "^10.1.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.6"
+  }
+}
