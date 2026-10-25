@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { homepage } = require("./package.json");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const homepagePath = homepage ? new URL(homepage).pathname : "/";
 
@@ -70,6 +71,12 @@ module.exports = (_, argv = {}) => {
         filename: "default.html",
         chunks: ["default"],
       }),
+        new CopyPlugin({
+        patterns: [
+        { from: "public/css", to: "css" },
+        { from: "public/js", to: "js" },
+  ],
+}),
     ],
     devServer: {
       static: {
