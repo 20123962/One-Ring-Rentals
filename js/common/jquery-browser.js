@@ -1,0 +1,1 @@
+navigator.userAgent||navigator.vendor||window.opera,(jQuery.browser=jQuery.browser||{}).mobile=/android|webos|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent.toLowerCase());
