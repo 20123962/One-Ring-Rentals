@@ -14,11 +14,11 @@ const Header = ({logo, setLogo}) => {
 								<li className="divider"></li>
                 
                 {/* set the current logo to the old logo with shared state */}
-                <li><button onClick={() => setLogo("./images/logo.oldpng.png")}>
+                <li><button onClick={() => setLogo("../../public/images/logo.oldpng.png")}>
                     Old Logo
                   </button></li>
                 {/* set the current logo to the new logo with shared state */}
-                <li><button onClick={() => setLogo("./images/logo.png")}>
+                <li><button onClick={() => setLogo("../../public/images/logo.png")}>
                     New Logo
                   </button></li>
 								<li>      
