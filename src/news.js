@@ -15,7 +15,7 @@ import News from "./data/news";
 // component for the content section
 const App = () => {
 // stores the current logo and shares it between the header and footer
-  const [logo, setLogo] = useState("/images/logo.png");
+  const [logo, setLogo] = useState("/One-Ring-Rentals/images/logo.png");
 
     return (
     <div id="wrapper">
