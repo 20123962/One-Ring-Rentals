@@ -14,7 +14,7 @@ import Regions from "./data/regions";
 // component for the content section
 const App = () => {
 // stores the current logo and shares it between the header and footer
-  const [logo, setLogo] = useState("/images/logo.png");
+  const [logo, setLogo] = useState("/One-Ring-Rentals/images/logo.png");
 // updates the contact form values when the user enters new input
   const [form, setForm] = useState({name: "", email: "", subject: "", message: "" });
 
