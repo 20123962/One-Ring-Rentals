@@ -75,6 +75,7 @@ module.exports = (_, argv = {}) => {
         patterns: [
         { from: "public/css", to: "css" },
         { from: "public/js", to: "js" },
+        { from: "public/images", to: "images" },
   ],
 }),
     ],
